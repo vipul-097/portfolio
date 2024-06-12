@@ -47,9 +47,9 @@ vs27577@gmail.com
        </div>
         <div className='w-[55%] h-[40vh] flex items-center flex-col  '>
           <form onSubmit={onSubmit}>
-          <input className='h-[8vh] p-2 outline-none bg-blue-200 w-[90%] mb-2' type="text" placeholder='name'name="name" />
-<input className='h-[8vh] p-2 outline-none bg-blue-200 w-[90%] mb-2' type="email" placeholder='email' name="email" />
-<textarea className='h-[15vh] w-[90%] p-2 outline-none bg-blue-200 resize-none' placeholder="enter your message" id=""name='details' ></textarea>
+          <input className='h-[8vh] p-2 outline-none bg-sky-100 rounded-md w-[90%] mb-2' type="text" placeholder='name'name="name" />
+<input className='h-[8vh] p-2 outline-none bg-sky-100 w-[90%] rounded-md  mb-2' type="email" placeholder='email' name="email" />
+<textarea className='h-[15vh] w-[90%] p-2 outline-none bg-sky-100 rounded-md  resize-none' placeholder="enter your message" id=""name='details' ></textarea>
 
 <button type="submit" className='text-sm font-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500  rounded-full px-6 py-3 mt-2 '>Submit</button>
 
